@@ -35,6 +35,6 @@ print()
 words = string.split()
 words.reverse()
 for y in words:
-    print(y, end="")
+    print(y, end=" ")
 
 
