@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: Eric
-Credit: Me!
+Author: Nils Kingston
+Credit: Roger
 
 Assignment:
 
@@ -25,3 +25,9 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
+import sys
+string = input("Please enter a string of text (the bigger the better): "
+b = list(string)
+b.reverse()
+for x in b:
+    sys.stdout.write(x)
