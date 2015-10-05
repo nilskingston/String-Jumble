@@ -36,5 +36,11 @@ words = string.split()
 words.reverse()
 for y in words:
     print(y, end=" ")
+print()
+swim = b.split()
+for w in swim:
+    f = list(w)
+    f.reverse()
+    print(''.join(f), end=" ")
 
 
